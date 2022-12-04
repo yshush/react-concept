@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-export default function AppMentor(props) {
+export default function AppMentor() {
   const [person, setPerson] = useState({
     name: "성훈",
     title: "개발자",
     mentor: {
-      name: "엘리",
-      title: "시니어 개발자",
+      name: "밥",
+      title: "시니어개발자",
     },
   });
   return (

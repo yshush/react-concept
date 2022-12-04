@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { DarkModeContext, DarkModeProvider } from "../context/DarkModeContext";
 import "./AppTheme.css";
+import { DarkModeContext, DarkModeProvider } from "./context/DarkModeContext";
 
 export default function AppTheme() {
   return (
@@ -52,9 +52,9 @@ function ProductDetail() {
   const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
   return (
     <div>
-      ProductDetail
+      Product Detail
       <p>
-        DarkMode:
+        DarkMode:{" "}
         {darkMode ? (
           <span style={{ backgroundColor: "black", color: "white" }}>
             Dark Mode

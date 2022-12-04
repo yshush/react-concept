@@ -4,7 +4,6 @@ export default function personReducer(person, action) {
       const { prev, current } = action;
       // const prev = action.prev;
       // const current = action.current;
-
       return {
         ...person,
         mentors: person.mentors.map((mentor) => {
@@ -19,7 +18,7 @@ export default function personReducer(person, action) {
       const { name, title } = action;
       return {
         ...person,
-        mentors: [...person.mentors, { name: name, title: title }],
+        mentors: [...person.mentors, { name, title }],
       };
     }
     case "deleted": {

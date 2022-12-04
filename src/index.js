@@ -1,16 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import AppCard from "./components/AppCard";
-import AppProducts from "./basic/components/AppProducts";
-import AppForm from "./components/AppForm";
-import AppMentors from "./components/AppMentors";
-import AppMentorsButton from "./components/AppmentorsButton";
-import AppMentorsImmer from "./components/AppMentorsImmer";
-import AppTheme from "./components/AppTheme";
-import AppWrap from "./components/AppWrap";
-import AppXY from "./components/AppXY";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
+import AppProducts from "./basic/AppProducts";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

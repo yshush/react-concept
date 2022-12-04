@@ -9,9 +9,9 @@
   background-color: #ebebeb;
   border-radius: 20px;
   box-shadow: 7px 5px 23px -9px rgba(0, 0, 0, 0.75);
+  margin-bottom: 1rem;
   -webkit-box-shadow: 7px 5px 23px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 7px 5px 23px -9px rgba(0, 0, 0, 0.75);
-  margin-bottom: 1rem;
 }
 
 .photo {
@@ -29,14 +29,13 @@
 
 .new {
   position: absolute;
-  background-color: aquamarine;
   left: 70%;
   top: 10%;
+  background-color: aquamarine;
   padding: 0.2rem 0.5rem;
-  font-weight: bold;
   border-radius: 0.5rem;
   text-transform: uppercase;
-  color: #111111;
+  font-weight: bold;
 }
 
 .container {
@@ -85,4 +84,5 @@
 
 .total {
   font-size: 1rem;
+  margin-left: -1.5rem;
 }

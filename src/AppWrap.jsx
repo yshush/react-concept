@@ -5,7 +5,7 @@ export default function AppWrap() {
     <div>
       <Navbar>
         <Avatar
-          image="https://images.unsplash.com/photo-1637858868799-7f26a0640eb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+          image="https://images.unsplash.com/photo-1652355128201-cde2f143d851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
           name="Bob"
           size={200}
         />

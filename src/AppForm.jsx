@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 
 export default function AppForm() {
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
   const [form, setForm] = useState({ name: "", email: "" });
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(form);
   };
   const handleChange = (e) => {
     const { name, value } = e.target;
